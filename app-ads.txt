@@ -1,9 +1,7 @@
 # app-ads.txt for apps published by Deyan Staykov (BlockBloom)
 # Authorizes the ad networks below to sell ad space in these apps.
 #
-# TODO: replace the placeholder line(s) with the exact lines from the AppLovin dashboard:
-#   MAX -> Mediation -> Manage -> app-ads.txt  (it lists AppLovin plus every mediated network you enable)
-# Keep this file at the site root: https://justaccepttheusername.github.io/app-ads.txt
-#
-# Example format (do not use as-is):
-# applovin.com, <YOUR_APPLOVIN_ID>, DIRECT
+# TODO: replace the placeholder with the exact line AdMob shows you:
+#   AdMob -> Apps -> View all apps -> app-ads.txt (or the "Set up app-ads.txt" banner)
+# It looks like:  google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# Add more lines here if you later enable mediation partners.
