@@ -1,0 +1,25 @@
+/* Portfolio additions. Loaded after style.css; style.css is left untouched
+   because the privacy page uses it. */
+.wrap { max-width: 880px; margin: 0 auto; padding: 32px 16px 48px; }
+
+.intro { padding-bottom: 8px; }
+.role { margin: 4px 0 16px; opacity: .75; }
+.lead { font-size: 1.1rem; line-height: 1.6; }
+
+.links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.btn {
+  display: inline-block; padding: 10px 18px; border-radius: 8px;
+  border: 1px solid currentColor; text-decoration: none; font-weight: 600;
+}
+.btn.ghost { opacity: .8; }
+
+section { margin-top: 48px; }
+.meta { opacity: .7; font-size: .92rem; margin-top: -4px; }
+h3 { margin: 20px 0 8px; font-size: 1rem; }
+
+.tags { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.tags li { padding: 6px 12px; border-radius: 999px; border: 1px solid rgba(128,128,128,.5); font-size: .9rem; }
+
+.shot { display: block; width: 100%; height: auto; border-radius: 10px; margin: 16px 0 0; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }
