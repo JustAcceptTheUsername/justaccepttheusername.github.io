@@ -4,105 +4,110 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Deyan Staykov – Unity / C# Game Developer</title>
-  <meta name="description" content="Portfolio of Deyan Staykov, Unity / C# game developer: Undisclosed, Dungeon Conveyor and BlockBloom.">
+  <meta name="description" content="Portfolio of Deyan Staykov, Unity / C# game developer: an undisclosed mobile RTS, Dungeon Conveyor and BlockBloom.">
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/portfolio.css">
 </head>
 <body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="/">Deyan Staykov</a>
+      <ul>
+        <li><a class="link" href="/#projects">Projects</a></li>
+        <li><a class="link" href="/#skills">Skills</a></li>
+        <li><a class="link" href="/#contact">Contact</a></li>
+        <li><a class="link" href="https://github.com/JustAcceptTheUsername">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <main class="wrap">
 
-    <header class="intro">
-      <h1>Deyan Staykov</h1>
-      <p class="role">Unity / C# game developer · Plovdiv, Bulgaria</p>
+    <header class="hero">
+      <p class="eyebrow">Unity / C# game developer · Plovdiv, Bulgaria</p>
+      <h1>I build the systems behind mobile games.</h1>
       <p class="lead">
         For about five years I have been the sole programmer on an undisclosed mobile RTS.
         I build gameplay systems, UI, economy and progression, AI and pathfinding, and the backend and
         live-service integrations, and I handle mobile performance and Android builds.
       </p>
-      <p class="links">
-        <a class="btn" href="mailto:staykov.deyan@gmail.com">Email me</a>
+      <div class="cta">
+        <a class="btn primary" href="mailto:staykov.deyan@gmail.com">Email me</a>
+        <a class="btn" href="/Deyan Staykov - Unity Developer - Resume.pdf">Download CV</a>
         <a class="btn" href="https://github.com/JustAcceptTheUsername">GitHub</a>
-        <a class="btn" href="/Deyan Staykov - Unity Developer - Resume.pdf">CV (PDF)</a>
-      </p>
+      </div>
     </header>
 
-    <section id="undisclosed">
-      <h2>Undisclosed mobile game</h2>
-      <p class="meta">Mobile RTS · Unity · Android · 2021 – present · Red Gold Games · sole programmer</p>
-      <p>
-        A mobile real-time strategy game. I am the only programmer on the project, so I have worked on most
-        of the codebase, from gameplay to build pipeline. The code is proprietary, so it is not public, and I am
-        happy to walk through the architecture in an interview.
-      </p>
-      <p class="muted">Clips and screenshots below are work-in-progress captures, shared with permission.</p>
-      <div class="grid2">
-        <video class="shot" src="/assets/age-of-alloy/winds.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Wind weather effect over the base"></video>
-        <video class="shot" src="/assets/age-of-alloy/tank.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Tank and turret combat"></video>
-        <video class="shot" src="/assets/age-of-alloy/cryo-battle.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Battle with cryo effects"></video>
-        <video class="shot" src="/assets/age-of-alloy/shield.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Dome shield effect"></video>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid3">
+
+        <a class="pcard" href="/projects/mobile-rts/">
+          <div class="thumb"><img src="/assets/age-of-alloy/building-placement.png" alt="Building placement in the mobile RTS" loading="lazy"></div>
+          <div class="body">
+            <h3>Undisclosed mobile RTS</h3>
+            <ul class="meta-row"><li>2021 – present</li><li>Unity · Android</li><li>Sole programmer</li></ul>
+            <p>A real-time strategy game for mobile. I own the codebase from gameplay to build pipeline.</p>
+            <span class="more">View project →</span>
+          </div>
+        </a>
+
+        <a class="pcard" href="/projects/dungeon-conveyor/">
+          <div class="thumb"><img src="/assets/dungeonconveyor-gameplay.gif" alt="Dungeon Conveyor gameplay" loading="lazy"></div>
+          <div class="body">
+            <h3>Dungeon Conveyor</h3>
+            <ul class="meta-row"><li>In development</li><li>Unity 6 · C#</li><li>With an artist</li></ul>
+            <p>A roguelike tower defense on a hex planet: miners, belts, towers, bosses and upgrade cards.</p>
+            <span class="more">View project →</span>
+          </div>
+        </a>
+
+        <a class="pcard" href="/projects/blockbloom/">
+          <div class="thumb">
+            <div class="board" aria-hidden="true">
+              <i></i><i></i><i class="a"></i><i class="a"></i><i></i><i></i><i class="c"></i><i></i>
+              <i></i><i class="b"></i><i class="a"></i><i></i><i></i><i class="c"></i><i class="c"></i><i></i>
+              <i class="b"></i><i class="b"></i><i></i><i></i><i class="d"></i><i></i><i class="c"></i><i></i>
+              <i></i><i></i><i></i><i class="d"></i><i class="d"></i><i></i><i></i><i></i>
+              <i class="a"></i><i></i><i class="b"></i><i></i><i class="d"></i><i></i><i class="a"></i><i class="a"></i>
+              <i class="a"></i><i class="a"></i><i class="b"></i><i class="b"></i><i></i><i></i><i></i><i></i>
+              <i></i><i class="c"></i><i></i><i></i><i class="d"></i><i class="d"></i><i></i><i class="b"></i>
+              <i></i><i class="c"></i><i class="c"></i><i></i><i></i><i class="a"></i><i></i><i class="b"></i>
+            </div>
+          </div>
+          <div class="body">
+            <h3>BlockBloom</h3>
+            <ul class="meta-row"><li>Unreleased</li><li>Mobile puzzle</li><li>Solo project</li></ul>
+            <p>A relaxing block puzzle on an 8×8 board. Coming soon to Google Play and the App Store.</p>
+            <span class="more">View project →</span>
+          </div>
+        </a>
+
       </div>
-      <h3>Building placement and construction</h3>
-      <div class="thumbs">
-        <img src="/assets/age-of-alloy/building-placement.png" alt="Building placement preview with footprint" loading="lazy">
-        <img src="/assets/age-of-alloy/barracks-placement.png" alt="Barracks being placed on the grid" loading="lazy">
-        <img src="/assets/age-of-alloy/turret-placement.png" alt="Turret placement footprint" loading="lazy">
-        <img src="/assets/age-of-alloy/placement-footprint.png" alt="Placement footprint tiles" loading="lazy">
-        <img src="/assets/age-of-alloy/barracks-closeup.png" alt="Barracks close-up" loading="lazy">
-        <img src="/assets/age-of-alloy/construction.png" alt="Covered construction state" loading="lazy">
-      </div>
-      <h3>What I work on</h3>
-      <ul class="tags">
-        <li>Gameplay systems</li>
-        <li>UI architecture</li>
-        <li>AI and pathfinding (A* Pathfinding Project)</li>
-        <li>Economy and progression</li>
-        <li>PlayFab backend</li>
-        <li>Google Play services</li>
-        <li>Firebase Cloud Messaging</li>
-        <li>FMOD audio</li>
-        <li>IronSource / LevelPlay</li>
-        <li>Addressables and sprite atlases</li>
-        <li>Mobile performance optimisation</li>
-        <li>Android builds (IL2CPP, ARM64, App Bundles, Play Asset Delivery)</li>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="chips">
+        <li>Unity (incl. Unity 6)</li><li>C#</li><li>OOP, SOLID, design patterns</li><li>Gameplay systems</li>
+        <li>UI architecture</li><li>AI and pathfinding</li><li>Economy and progression</li>
+        <li>Async/await, coroutines</li><li>PlayFab</li><li>Google Play services</li>
+        <li>Firebase Cloud Messaging</li><li>FMOD</li><li>IronSource / LevelPlay</li>
+        <li>Addressables</li><li>Sprite atlases</li><li>Unity Profiler</li>
+        <li>Mobile performance optimisation</li><li>Android (IL2CPP, ARM64, App Bundles, Play Asset Delivery)</li>
       </ul>
-    </section>
-
-    <section id="dungeon-conveyor">
-      <h2>Dungeon Conveyor</h2>
-      <p class="meta">Roguelike tower defense · Unity 6 · C# · in development with an artist</p>
-      <p>
-        You defend a Core on a hex-tiled planet by placing miners, conveyor belts and towers while waves of
-        rock creatures attack. Every 10th wave brings a boss, and after each cleared wave you pick one of three
-        upgrade cards. I focus on the code; my teammate Alex makes the art and models. Some assets are AI-generated
-        placeholders for now.
-      </p>
-      <img class="shot" src="/assets/dungeonconveyor-gameplay.gif" alt="Dungeon Conveyor gameplay" loading="lazy">
-      <div class="grid2">
-        <img class="shot" src="/assets/dungeonconveyor-boss.gif" alt="Boss fight in Dungeon Conveyor" loading="lazy">
-        <img class="shot" src="/assets/dungeonconveyor-cards.gif" alt="Upgrade card selection in Dungeon Conveyor" loading="lazy">
-      </div>
-      <p><a href="https://github.com/JustAcceptTheUsername/DungeonConveyor">View the source on GitHub →</a></p>
-    </section>
-
-    <section id="blockbloom" class="card">
-      <h2>BlockBloom</h2>
-      <p class="meta">Mobile puzzle · my own project · unreleased</p>
-      <p>
-        A relaxing block puzzle: drag shapes onto an 8×8 board, clear rows and columns, chain combos and chase
-        your best score. Coming soon to Google Play and the App Store.
-      </p>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p><a href="mailto:staykov.deyan@gmail.com">staykov.deyan@gmail.com</a></p>
-      <ul>
-        <li><a href="https://github.com/JustAcceptTheUsername">GitHub</a></li>
-        <li><a href="/privacy/">Privacy Policy (BlockBloom)</a></li>
-      </ul>
+      <p>Open to Unity / C# roles. The fastest way to reach me is email.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:staykov.deyan@gmail.com">staykov.deyan@gmail.com</a>
+        <a class="btn" href="https://github.com/JustAcceptTheUsername">GitHub</a>
+      </div>
     </section>
 
   </main>
-  <footer>© 2026 Deyan Staykov</footer>
+  <footer>© 2026 Deyan Staykov · <a href="/privacy/">BlockBloom privacy policy</a></footer>
 </body>
 </html>

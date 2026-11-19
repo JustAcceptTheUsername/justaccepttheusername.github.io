@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dungeon Conveyor – Deyan Staykov</title>
+  <meta name="description" content="Dungeon Conveyor: a roguelike tower-defense game in Unity 6 on a hex-tiled planet, with miners, conveyor belts, towers, wave bosses and upgrade cards.">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/portfolio.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="/">Deyan Staykov</a>
+      <ul>
+        <li><a class="link" href="/#projects" aria-current="page">Projects</a></li>
+        <li><a class="link" href="/#skills">Skills</a></li>
+        <li><a class="link" href="/#contact">Contact</a></li>
+        <li><a class="link" href="https://github.com/JustAcceptTheUsername">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <p class="crumb"><a href="/#projects">← All projects</a></p>
+
+    <header class="phead">
+      <p class="eyebrow">Project</p>
+      <h1>Dungeon Conveyor</h1>
+      <ul class="meta-row">
+        <li>In development</li><li>Unity 6 (6000.3) · C#</li><li>Team of two</li><li>Roguelike tower defense</li>
+      </ul>
+      <p class="lead">
+        You defend a Core on a hex-tiled planet by placing miners, conveyor belts and towers while waves of
+        rock creatures attack. Every 10th wave brings a boss, and after each cleared wave you pick one of
+        three upgrade cards.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="https://github.com/JustAcceptTheUsername/DungeonConveyor">View source on GitHub</a>
+      </div>
+    </header>
+
+    <section>
+      <img class="shot" src="/assets/dungeonconveyor-gameplay.gif" alt="Dungeon Conveyor gameplay">
+      <div class="gallery">
+        <img class="shot" src="/assets/dungeonconveyor-boss.gif" alt="Boss fight in Dungeon Conveyor" loading="lazy">
+        <img class="shot" src="/assets/dungeonconveyor-cards.gif" alt="Upgrade card selection in Dungeon Conveyor" loading="lazy">
+      </div>
+    </section>
+
+    <section class="two">
+      <div>
+        <h2>Gameplay</h2>
+        <ul class="list">
+          <li>Build miners, belts and towers on a rotating hex planet</li>
+          <li>Rock critters and ore golems hatch from meteors, chew belts and slam your Core</li>
+          <li>Boss waves with armour plates that break off as it takes damage</li>
+          <li>Upgrade cards after each wave: fire, lightning, frost and poison effects, or stat boosts</li>
+          <li>Maps grow as you clear stages</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Technical highlights</h2>
+        <ul class="list">
+          <li>Wave and boss system within a stage-based roguelike run</li>
+          <li>Card system with per-tower and global modifiers</li>
+          <li>Code-driven animation rig for rigid-part models, with hit flash, cracks and crumble-on-death</li>
+          <li>Runtime element palettes for recolouring enemies</li>
+          <li>Custom HUD with 9-sliced art and tweened feedback</li>
+          <li>An automated PlaytestBot for balance testing</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Team</h2>
+      <p>I focus on the code: most of the gameplay systems and architecture. My teammate Alex makes the art and
+        3D models, with occasional code contributions made with Claude Code.</p>
+      <p class="note">Some assets, including a number of models, are AI-generated placeholders that will be replaced
+        as the art develops. Parts of the code and documentation were also written with AI assistance and reviewed by the team.</p>
+    </section>
+
+    <nav class="pnav" aria-label="Project navigation">
+      <a href="/projects/mobile-rts/">← Undisclosed mobile RTS</a>
+      <a href="/projects/blockbloom/">Next: BlockBloom →</a>
+    </nav>
+  </main>
+  <footer>© 2026 Deyan Staykov · <a href="/privacy/">BlockBloom privacy policy</a></footer>
+</body>
+</html>
