@@ -96,3 +96,6 @@ body { font-size: 16px; }
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+.wrap main { max-width: none; margin: 0; padding: 0; }
+.gallery.pair video.shot { aspect-ratio: 16 / 10; object-fit: contain; }

@@ -5,87 +5,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Undisclosed mobile RTS – Deyan Staykov</title>
   <meta name="description" content="A mobile real-time strategy game built in Unity. Sole programmer: gameplay, UI, economy, AI, backend integrations and Android builds.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/portfolio.css">
 </head>
 <body>
-  <nav class="nav">
-    <div class="nav-inner">
+  <div class="wrap">
+    <header class="top">
       <a class="brand" href="/">Deyan Staykov</a>
-      <ul>
-        <li><a class="link" href="/#projects" aria-current="page">Projects</a></li>
-        <li><a class="link" href="/#skills">Skills</a></li>
-        <li><a class="link" href="/#contact">Contact</a></li>
-        <li><a class="link" href="https://github.com/JustAcceptTheUsername">GitHub</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <main class="wrap">
-    <p class="crumb"><a href="/#projects">← All projects</a></p>
-
-    <header class="phead">
-      <p class="eyebrow">Project</p>
-      <h1>Undisclosed mobile RTS</h1>
-      <ul class="meta-row">
-        <li>2021 – present</li><li>Red Gold Games</li><li>Unity · C# · Android</li><li>Sole programmer</li>
-      </ul>
-      <p class="lead">
-        A mobile real-time strategy game. I am the only programmer on the project, so I have worked on most
-        of the codebase, from gameplay to build pipeline.
-      </p>
-      <p class="note">The title is confidential and the code is proprietary. The clips and screenshots below are
-        work-in-progress captures, shared with permission. I am happy to walk through the architecture in an interview.</p>
+      <nav aria-label="Primary">
+        <a href="/#projects" aria-current="page">Projects</a>
+        <a href="/#skills">Skills</a>
+        <a href="/#contact">Contact</a>
+        <a href="https://github.com/JustAcceptTheUsername">GitHub</a>
+      </nav>
     </header>
 
-    <section>
-      <h2>Clips</h2>
-      <div class="gallery pair">
-        <video class="shot" src="/assets/age-of-alloy/winds.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Wind weather effect over the base"></video>
-        <video class="shot" src="/assets/age-of-alloy/tank.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Tank and turret combat"></video>
-        <video class="shot" src="/assets/age-of-alloy/cryo-battle.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Battle with cryo effects"></video>
-        <video class="shot" src="/assets/age-of-alloy/shield.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Dome shield effect"></video>
-      </div>
-    </section>
+    <main>
+      <p class="crumb"><a href="/#projects">← All projects</a></p>
 
-    <section>
-      <h2>Building placement and construction</h2>
-      <div class="gallery thumbs">
-        <img src="/assets/age-of-alloy/building-placement.png" alt="Building placement preview with footprint" loading="lazy">
-        <img src="/assets/age-of-alloy/barracks-placement.png" alt="Barracks being placed on the grid" loading="lazy">
-        <img src="/assets/age-of-alloy/turret-placement.png" alt="Turret placement footprint" loading="lazy">
-        <img src="/assets/age-of-alloy/placement-footprint.png" alt="Placement footprint tiles" loading="lazy">
-        <img src="/assets/age-of-alloy/construction.png" alt="Covered construction state" loading="lazy">
-      </div>
-    </section>
+      <header class="phead">
+        <p class="label">Project</p>
+        <h1>Undisclosed mobile RTS</h1>
+        <p class="facts"><span>2021 – present</span><span>Red Gold Games</span><span>Unity, C#, Android</span><span>Sole programmer</span></p>
+        <p class="lead">A mobile real-time strategy game. I am the only programmer on the project, so I have worked on most of the codebase, from gameplay to build pipeline.</p>
+        <p class="note">The title is confidential and the code is proprietary. The clips and screenshots below are work-in-progress captures, shared with permission. I am happy to walk through the architecture in an interview.</p>
+      </header>
 
-    <section class="two">
-      <div>
-        <h2>What I work on</h2>
-        <ul class="list">
-          <li>Gameplay systems and UI architecture</li>
-          <li>AI and pathfinding (A* Pathfinding Project)</li>
-          <li>Economy and progression</li>
-          <li>Backend and live-service integrations</li>
-          <li>Mobile performance optimisation</li>
-          <li>Android builds and delivery</li>
-        </ul>
-      </div>
-      <div>
-        <h2>Tech</h2>
-        <ul class="chips">
-          <li>Unity</li><li>C#</li><li>PlayFab</li><li>Google Play services</li><li>Firebase Cloud Messaging</li>
-          <li>FMOD</li><li>IronSource / LevelPlay</li><li>Addressables</li><li>Sprite atlases</li>
-          <li>Unity Profiler</li><li>IL2CPP · ARM64</li><li>App Bundles · Play Asset Delivery</li>
-        </ul>
-      </div>
-    </section>
+      <section>
+        <h2>Clips</h2>
+        <div class="gallery pair">
+          <video class="shot" src="/assets/age-of-alloy/winds.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Wind weather effect over the base"></video>
+          <video class="shot" src="/assets/age-of-alloy/tank.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Tank and turret combat"></video>
+          <video class="shot" src="/assets/age-of-alloy/cryo-battle.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Battle with cryo effects"></video>
+          <video class="shot" src="/assets/age-of-alloy/shield.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Dome shield effect"></video>
+        </div>
+      </section>
 
-    <nav class="pnav" aria-label="Project navigation">
-      <a href="/#projects">← All projects</a>
-      <a href="/projects/dungeon-conveyor/">Next: Dungeon Conveyor →</a>
-    </nav>
-  </main>
-  <footer>© 2026 Deyan Staykov · <a href="/privacy/">BlockBloom privacy policy</a></footer>
+      <section>
+        <h2>Building placement and construction</h2>
+        <div class="gallery thumbs">
+          <img src="/assets/age-of-alloy/building-placement.png" alt="Building placement preview with footprint" loading="lazy">
+          <img src="/assets/age-of-alloy/barracks-placement.png" alt="Barracks being placed on the grid" loading="lazy">
+          <img src="/assets/age-of-alloy/turret-placement.png" alt="Turret placement footprint" loading="lazy">
+          <img src="/assets/age-of-alloy/placement-footprint.png" alt="Placement footprint tiles" loading="lazy">
+          <img src="/assets/age-of-alloy/construction.png" alt="Covered construction state" loading="lazy">
+        </div>
+      </section>
+
+      <section class="two">
+        <div>
+          <h2>What I work on</h2>
+          <ul class="list">
+            <li>Gameplay systems and UI architecture</li>
+            <li>AI and pathfinding (A* Pathfinding Project)</li>
+            <li>Economy and progression</li>
+            <li>Backend and live-service integrations</li>
+            <li>Mobile performance optimisation</li>
+            <li>Android builds and delivery</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Tech</h2>
+          <ul class="tags">
+            <li>Unity</li><li>C#</li><li>PlayFab</li><li>Google Play services</li><li>Firebase Cloud Messaging</li>
+            <li>FMOD</li><li>IronSource / LevelPlay</li><li>Addressables</li><li>Sprite atlases</li>
+            <li>Unity Profiler</li><li>IL2CPP, ARM64</li><li>App Bundles, Play Asset Delivery</li>
+          </ul>
+        </div>
+      </section>
+
+      <nav class="pnav" aria-label="Project navigation">
+        <a href="/#projects">← All projects</a>
+        <a href="/projects/dungeon-conveyor/">Next: Dungeon Conveyor →</a>
+      </nav>
+    </main>
+
+    <footer class="foot"><span>© 2026 Deyan Staykov</span><a href="/privacy/">BlockBloom privacy policy</a></footer>
+  </div>
 </body>
 </html>

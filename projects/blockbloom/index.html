@@ -5,51 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BlockBloom – Deyan Staykov</title>
   <meta name="description" content="BlockBloom: a relaxing block puzzle for mobile. Drag shapes onto an 8×8 board, clear rows and columns, chain combos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/portfolio.css">
 </head>
 <body>
-  <nav class="nav">
-    <div class="nav-inner">
+  <div class="wrap">
+    <header class="top">
       <a class="brand" href="/">Deyan Staykov</a>
-      <ul>
-        <li><a class="link" href="/#projects" aria-current="page">Projects</a></li>
-        <li><a class="link" href="/#skills">Skills</a></li>
-        <li><a class="link" href="/#contact">Contact</a></li>
-        <li><a class="link" href="https://github.com/JustAcceptTheUsername">GitHub</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <main class="wrap">
-    <p class="crumb"><a href="/#projects">← All projects</a></p>
-
-    <header class="phead">
-      <p class="eyebrow">Project</p>
-      <h1>BlockBloom</h1>
-      <ul class="meta-row">
-        <li>Unreleased</li><li>Mobile puzzle</li><li>Solo project</li>
-      </ul>
-      <p class="lead">
-        A relaxing block puzzle: drag shapes onto an 8×8 board, clear rows and columns, chain combos and chase
-        your best score.
-      </p>
-      <p class="note">Coming soon to Google Play and the App Store. Screenshots will be added closer to release.</p>
+      <nav aria-label="Primary">
+        <a href="/#projects" aria-current="page">Projects</a>
+        <a href="/#skills">Skills</a>
+        <a href="/#contact">Contact</a>
+        <a href="https://github.com/JustAcceptTheUsername">GitHub</a>
+      </nav>
     </header>
 
-    <section>
-      <h2>Legal</h2>
-      <ul class="list">
-        <li><a href="/privacy/">Privacy policy</a></li>
-        <li><a href="/app-ads.txt">app-ads.txt</a></li>
-      </ul>
-    </section>
+    <main>
+      <p class="crumb"><a href="/#projects">← All projects</a></p>
 
-    <nav class="pnav" aria-label="Project navigation">
-      <a href="/projects/dungeon-conveyor/">← Dungeon Conveyor</a>
-      <a href="/#projects">All projects →</a>
-    </nav>
-  </main>
-  <footer>© 2026 Deyan Staykov · <a href="/privacy/">BlockBloom privacy policy</a></footer>
+      <header class="phead">
+        <p class="label">Project</p>
+        <h1>BlockBloom</h1>
+        <p class="facts"><span>Unreleased</span><span>Mobile puzzle</span><span>Solo project</span></p>
+        <p class="lead">A relaxing block puzzle: drag shapes onto an 8×8 board, clear rows and columns, chain combos and chase your best score.</p>
+        <p class="note">Coming soon to Google Play and the App Store. Screenshots will be added closer to release.</p>
+      </header>
+
+      <section>
+        <h2>Legal</h2>
+        <ul class="list">
+          <li><a href="/privacy/">Privacy policy</a></li>
+          <li><a href="/app-ads.txt">app-ads.txt</a></li>
+        </ul>
+      </section>
+
+      <nav class="pnav" aria-label="Project navigation">
+        <a href="/projects/dungeon-conveyor/">← Dungeon Conveyor</a>
+        <a href="/#projects">All projects →</a>
+      </nav>
+    </main>
+
+    <footer class="foot"><span>© 2026 Deyan Staykov</span><a href="/privacy/">BlockBloom privacy policy</a></footer>
+  </div>
 </body>
 </html>
