@@ -31,7 +31,7 @@ body { font-size: 16px; }
 
 /* ---------- sections ---------- */
 .wrap section { padding: 56px 0; border-top: 1px solid var(--line); margin: 0; }
-.sec-head { margin-bottom: 28px; }
+.sec-head { margin-bottom: 36px; }
 .sec-head h2, .wrap section > h2 { font-size: 1.7rem; font-weight: 600; margin-bottom: 18px; }
 .sec-head h2 { margin-bottom: 0; }
 
@@ -41,7 +41,7 @@ body { font-size: 16px; }
 .proj .media { aspect-ratio: 16 / 10; max-width: 100%; background: var(--card); border-radius: 3px; overflow: hidden; }
 .proj .media img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .proj h3 { font-size: 1.7rem; font-weight: 600; }
-.facts { margin: 10px 0 14px; color: var(--muted); font-size: .88rem; }
+.wrap .facts { margin: 10px 0 14px; color: var(--muted); font-size: .88rem; }
 .facts span + span::before { content: "/"; margin: 0 .6em; color: var(--line); }
 .proj .desc { max-width: 52ch; }
 .wrap a.go { display: inline-block; margin-top: 16px; font-weight: 600; color: var(--accent); text-decoration: none; border-bottom: 1.5px solid currentColor; }
@@ -99,3 +99,4 @@ body { font-size: 16px; }
 
 .wrap main { max-width: none; margin: 0; padding: 0; }
 .gallery.pair video.shot { aspect-ratio: 16 / 10; object-fit: contain; }
+.wrap .phead .facts { margin: 0; }
